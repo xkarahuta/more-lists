@@ -67,7 +67,7 @@ if test_length(fib) and test_contents(fib):
     print("""
 You've passed my automated tests.
 Don't forget to save your work and commit your changes.
-Try the next exercise now.""")
+Try the final exercise now.""")
 else:
     print("""
 Automated error checking complete, but it looks like something is wrong with your code.

@@ -41,6 +41,7 @@ def check_string_list_contents():
             print(f"Ooops, {string_list[n]} at index {n} is a {type(string_list[n])}")
             return False
     print("\n\nYour string_list appears to be correct\n\n")
+    print("Try the fibonacci exercise now")
     return True
 
 if check_string_list_exists():
