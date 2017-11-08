@@ -17,5 +17,9 @@ Advice:
 
 There is no automated checking on this one
 """
-
 shopping_list = []
+
+while input("Are you done yet? (Y/N)") != "Y":
+    shopping_list.append(input("What do you want to add?"))
+
+print(f"{shopping_list}")
