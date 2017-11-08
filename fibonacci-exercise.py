@@ -11,6 +11,12 @@ the first 50 terms of the fibonacci sequence, starting with 0
 """
 
 fib = [0, 1]
+for x in range (48):
+    num1 = fib[-1]
+    num2 = fib[-2]
+    fib.append(num1 + num2)
+print(f"{fib}")
+
 
 # TIP: How can you refer to the last item in a list? Print the last item in the list called fib
 
@@ -62,7 +68,7 @@ def test_contents(student_results):
         else:
             print(f"Term at index{n} is incorrect. You have {fib[n]} and I have {fibonacci_results[n]}")
             is_correct = False
-            
+
 if test_length(fib) and test_contents(fib):
     print("""
 You've passed my automated tests.
