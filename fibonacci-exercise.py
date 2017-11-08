@@ -58,9 +58,9 @@ def test_contents(student_results):
     num_terms_to_check = min(len(fib), len(fibonacci_results))
     for n in range(num_terms_to_check):
         if fib[n] == fibonacci_results[n]:
-            print(f"Term {n + 1} is correct: {fib[n]}")
+            print(f"Term at index{n} is correct: {fib[n]}")
         else:
-            print(f"Term {n + 1} is incorrect. You have {fib[n]} and I have {fibonacci_results[n]}")
+            print(f"Term at index{n} is incorrect. You have {fib[n]} and I have {fibonacci_results[n]}")
             is_correct = False
             
 if test_length(fib) and test_contents(fib):
